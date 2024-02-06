@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <title>他妈的留言</title>
+</head>
+<body>
+    <div id="gitalk-container"></div>
+    <script>
+        var gitalk = new Gitalk({
+            clientID: '915b681e20da5ce482a1',
+            clientSecret: '98f9fecce00129a3b2f7566a1f9f1790dc8f4ebe',
+            repo: 'gitalk-comments',
+            owner: 'Februnder',
+            admin:  ['Februnder'],
+            id: location.pathname,
+            distractionFreeMode: false
+        })
+        gitalk.render('gitalk-container')
+    </script>
+</body>
+</html>
