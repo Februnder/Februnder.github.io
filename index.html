@@ -1,70 +1,98 @@
-<!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
 
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="Author" content="Februnder">
-    <title>Februnder的主页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- 手机端适配：让页面宽度跟随屏幕，禁止缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孤硝Februnder的主页</title>
     <link rel="icon" href="ownfiles/favicon.ico">
     <link rel="shortcut icon" href="ownfiles/favicon.ico">
+
+        <style>
+        /* 简单适配：小屏幕上调整内边距和字体 */
+        @media (max-width: 480px) {
+            table td { padding: 6px !important; }
+            font[size="6"] { font-size: 22px !important; }
+            font[size="5"] { font-size: 18px !important; }
+            font[size="2"] { font-size: 14px !important; }
+        }
+    </style>
 </head>
 
-<body bgcolor="e0ffff">
-    <table width="100%">
-        <tbody>
+<body bgcolor="#E0FFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+
+    <center>
+
+        <!-- 表格宽度由固定600改为自适应，最大宽度仍为600，适配手机 -->
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%; max-width:600px;">
             <tr>
                 <td>
-                    <img src="ownfiles/head.jpg" alt="头像" width="100%"/>
-                </td>
-                <td width="5%">
+
+                    <!-- 页首标题 -->
+                    <font size="6"><b>~ 孤硝Februnder 的主页 ~</b></font>
                     <br>
-                </td>
-                <td width="80%">
-                    <h1>孤硝Februnder</h1>
+                    <font size="2" color="#666666">欢迎光临，我也不知道改写什么。</font>
+
+                    <hr width="100%" size="2" color="#000000">
                     <br>
-                    <b>Email</b>
-                    : februnder@foxmail.com
+
+                    <!-- ========== 栏目一：个人信息 ========== -->
+                    <table border="2" cellpadding="10" cellspacing="0" style="width:100%;" bordercolor="#000000">
+                        <tr>
+                            <!-- 左侧：正方形头像空位（100x100） -->
+                            <td width="100" height="100" align="center" valign="middle" bgcolor="#F5F5F5">
+                                <img src="ownfiles/head.jpg" alt="头像" width="100%"/>
+                            </td>
+                            <!-- 右侧：姓名与邮箱 -->
+                            <td valign="middle">
+                                <font size="5"><b>孤硝Februnder</b></font>
+                                <br><br>
+                                邮箱：<a href="mailto:Februnder@foxmail.com">Februnder@foxmail.com</a>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br><br>
+
+                    <!-- ========== 栏目二：个人简介 ========== -->
+                    <table border="2" cellpadding="10" cellspacing="0" style="width:100%;" bordercolor="#000000">
+                        <tr>
+                            <td bgcolor="#E8E8E8"><b>个人简介</b></td>
+                        </tr>
+                        <tr>
+                            <td height="80" valign="top">
+                                &emsp;&emsp;欢迎你来到劳资的个人博客。我是孤硝Februnder，随便你怎么称呼。手残党。
+                                过去是很菜的 osu!mania 7k 和 bms 玩家。现在正在尝试《GTA V》。
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br><br>
+
+                    <!-- ========== 栏目三：其他 ========== -->
+                    <table border="2" cellpadding="10" cellspacing="0" style="width:100%;" bordercolor="#000000">
+                        <tr>
+                            <td bgcolor="#E8E8E8"><b>其他</b></td>
+                        </tr>
+                        <tr>
+                            <td height="50" valign="top">
+                                <p style="margin:0 0 6px 0;">◆ <a href="branches/others/anime list1">追番列表</a></p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <hr width="100%" size="1" color="#000000">
+                    <font size="2">孤硝Februnder</font>
+
                 </td>
             </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>关于劳资</h2>
-    <blockquote>
-        &emsp;&emsp;欢迎你来到劳资的个人博客。我是孤硝Februnder，随便你怎么称呼。手残党。
-        过去是很菜的
-        <a href="https://osu.ppy.sh/users/25453910/">osu!mania 7k</a>
-        和bms玩家。现在正在尝试《黑暗之魂3》，《只狼》，《荒野大镖客2》和《巫师3》。
-        <br>
-    </blockquote>
-    <hr>
-    <h2>标签</h2>
-    <blockquote>
-        &emsp;人真的应该给自己贴标签吗？<br>
-        <ul type="disc">
-            <li>爱杀厨</li>
-            <li>音游玩家</li>
-            <li>手残党，描边大师</li>
-            <li>菜逼</li>
-            <li>能肝</li>
-            <li>读书</li>
-        </ul>
-    </blockquote>
-    <hr>
-    <h2>其他</h2>
-    <blockquote>
-        人在闲着的时候，总会给自己找点活干。
-        <ul type="disc">
-            <li><a href="branches/others/anime list1">追番列表</a></li>
-        </ul>
-    </blockquote>
-    <hr>
-    <h2>还有什么想说的吗？</h2>
-    <blockquote>
-        有时候觉得自己挺悲哀的。<br>
-        没有了，等以后有想法了接着写。
-    </blockquote>
-    <hr>
-</body>
+        </table>
 
+    </center>
+
+</body>
 </html>
